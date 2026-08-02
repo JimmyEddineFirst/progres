@@ -26,11 +26,10 @@ jobs:
         run: chmod +x ./gradlew
 
       - name: Build with Gradle
-        run: ./gradlew detekt assembleRelease
+        run: ./gradlew detekt assembleDebug
 
       - name: Upload the universal artifact
         uses: actions/upload-artifact@v4
         with:
-          path: ./composeApp/build/outputs/apk/release/composeApp-release-unsigned.apk
-          name: progres
-
+          path: ./composeApp/build/outputs/apk/debug/composeApp-debug.apk
+          name: progres-debug
