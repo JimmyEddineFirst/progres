@@ -4,7 +4,7 @@
 
 # [Progres](#)
 
-A remake of the DRDN's Progres WebEtu app.
+A remake  of the DRDN's Progres WebEtu app.
 
 Made with Kotlin & Compose Multiplatform, for Android 5+ and iOS 10+.
 
