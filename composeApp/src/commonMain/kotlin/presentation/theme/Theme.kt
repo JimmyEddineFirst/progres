@@ -112,6 +112,8 @@ fun AppTheme(content: @Composable () -> Unit) {
 
   MaterialExpressiveTheme(
     colorScheme = colorScheme,
+    typography = AppleTypography,
+    shapes = AppleShapes,
     content = content,
   )
 }
